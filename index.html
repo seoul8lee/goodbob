@@ -28,7 +28,7 @@
           if(hours<10) {hours="0"+hours;}
           if(minutes<10) {minutes="0"+minutes;}
           if(seconds<10) {seconds="0"+seconds;}
-          document.getElementById("demo").innerHTML =  "D-" + days + "    " + hours + " : " + minutes + " : " + seconds;
+          document.getElementById("demo").innerHTML =  hours + " : " + minutes + " : " + seconds;
         
           // If the count down is finished, write some text 
           if (distance < 0) {
@@ -51,6 +51,7 @@
 <body>
     <div class="contaier">
         <p id="title">GA YOUNG B-DAY</p>
+        <p>ONE DAY MORE</p>
         <p id="demo" ></p>
     
     </div>
